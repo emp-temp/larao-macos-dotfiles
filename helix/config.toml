@@ -1,0 +1,9 @@
+# theme="tokyonight_moon"
+theme = "catppuccin_frappe"
+
+[editor]
+cursorline = true
+
+[editor.file-picker]
+hidden = false
+
