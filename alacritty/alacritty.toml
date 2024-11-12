@@ -1,6 +1,6 @@
 [general]
 import = [
-    "~/.config/alacritty/themes/themes/catppuccin_frappe.toml"
+    "~/.config/alacritty/themes/themes/catppuccin_mocha.toml"
 ]
 
 [font]
@@ -10,8 +10,8 @@ normal = { family = "JetBrainsMono Nerd Font Mono", style="Regular" }
 [window]
 # padding = { x = 10, y = 30 }
 padding = { x = 10, y = 10 }
-opacity = 0.9
-blur = false
+# opacity = 0.9
+# blur = false
 # decorations = "Transparent"
 decorations = "Buttonless"
 

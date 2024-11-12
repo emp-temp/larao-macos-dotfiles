@@ -19,14 +19,14 @@ set -Ux GOPATH $HOME/go
 # PAT の設定（環境変数）
 set -Ux PAT $PAT
 
-if test -z "$ZELLIJ"
-    if test "$ZELLIJ_AUTO_ATTACH" = true
-        zellij attach -c
-    else
-        zellij
-    end
+# if test -z "$ZELLIJ"
+#     if test "$ZELLIJ_AUTO_ATTACH" = true
+#         zellij attach -c
+#     else
+#         zellij
+#     end
 
-    if test "$ZELLIJ_AUTO_EXIT" = true
-        exit
-    end
-end
+#     if test "$ZELLIJ_AUTO_EXIT" = true
+#         exit
+#     end
+# end

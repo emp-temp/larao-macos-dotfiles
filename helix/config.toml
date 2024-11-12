@@ -1,5 +1,6 @@
-# theme="tokyonight_moon"
-theme = "catppuccin_frappe"
+# theme="tokyonight"
+theme = "catppuccin_mocha"
+# theme = "bogster"
 
 [editor]
 cursorline = true
@@ -7,3 +8,5 @@ cursorline = true
 [editor.file-picker]
 hidden = false
 
+[editor.cursor-shape]
+insert = "bar"
