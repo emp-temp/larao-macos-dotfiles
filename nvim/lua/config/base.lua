@@ -23,5 +23,6 @@ vim.opt.wrap = false
 vim.opt.nrformats = "bin,hex"
 vim.opt.swapfile = false
 vim.opt.list = true
+vim.opt.cursorline = true
 vim.opt.formatoptions:remove('t')
 vim.opt.formatoptions:append('mM')
